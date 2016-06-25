@@ -1,0 +1,173 @@
+﻿<RootClass xmlns="http://schemas.datacontract.org/2004/07/DataContractSerializeTest.Serializable" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+	<Dictionary xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+		<a:KeyValueOfintstring>
+			<a:Key>1</a:Key>
+			<a:Value>value1</a:Value>
+		</a:KeyValueOfintstring>
+		<a:KeyValueOfintstring>
+			<a:Key>2</a:Key>
+			<a:Value>value2</a:Value>
+		</a:KeyValueOfintstring>
+	</Dictionary>
+	<IntValue>3</IntValue>
+	<StringArray xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+		<a:string>val1</a:string>
+		<a:string>val2</a:string>
+	</StringArray>
+	<StringList xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+		<a:string>val1</a:string>
+		<a:string>val2</a:string>
+	</StringList>
+	<StringValue>hoge1</StringValue>
+	<SubClass>
+		<Dictionary i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+		<IntValue>0</IntValue>
+		<StringArray i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+		<StringList i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+		<StringValue i:nil="true"/>
+	</SubClass>
+	<SubClassesArray>
+		<SubClass>
+			<Dictionary xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<a:KeyValueOfintstring>
+					<a:Key>1</a:Key>
+					<a:Value>value1</a:Value>
+				</a:KeyValueOfintstring>
+				<a:KeyValueOfintstring>
+					<a:Key>2</a:Key>
+					<a:Value>value2</a:Value>
+				</a:KeyValueOfintstring>
+			</Dictionary>
+			<IntValue>4</IntValue>
+			<StringArray xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<a:string>val1-1</a:string>
+				<a:string>val1-2</a:string>
+			</StringArray>
+			<StringList xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<a:string>val1</a:string>
+				<a:string>val2</a:string>
+			</StringList>
+			<StringValue>hoge2</StringValue>
+		</SubClass>
+		<SubClass>
+			<Dictionary xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<a:KeyValueOfintstring>
+					<a:Key>1</a:Key>
+					<a:Value>value1</a:Value>
+				</a:KeyValueOfintstring>
+				<a:KeyValueOfintstring>
+					<a:Key>2</a:Key>
+					<a:Value>value2</a:Value>
+				</a:KeyValueOfintstring>
+			</Dictionary>
+			<IntValue>5</IntValue>
+			<StringArray xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<a:string>val1-1</a:string>
+				<a:string>val1-2</a:string>
+			</StringArray>
+			<StringList xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<a:string>val1</a:string>
+				<a:string>val2</a:string>
+			</StringList>
+			<StringValue>hoge3</StringValue>
+		</SubClass>
+	</SubClassesArray>
+	<SubClassesDictionary xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+		<a:KeyValueOfintSubClasspHn4fXTH>
+			<a:Key>1</a:Key>
+			<a:Value>
+				<Dictionary>
+					<a:KeyValueOfintstring>
+						<a:Key>1</a:Key>
+						<a:Value>value1</a:Value>
+					</a:KeyValueOfintstring>
+					<a:KeyValueOfintstring>
+						<a:Key>2</a:Key>
+						<a:Value>value2</a:Value>
+					</a:KeyValueOfintstring>
+				</Dictionary>
+				<IntValue>8</IntValue>
+				<StringArray>
+					<a:string>val1-1</a:string>
+					<a:string>val1-2</a:string>
+				</StringArray>
+				<StringList>
+					<a:string>val1</a:string>
+					<a:string>val2</a:string>
+				</StringList>
+				<StringValue>hoge6</StringValue>
+			</a:Value>
+		</a:KeyValueOfintSubClasspHn4fXTH>
+		<a:KeyValueOfintSubClasspHn4fXTH>
+			<a:Key>2</a:Key>
+			<a:Value>
+				<Dictionary>
+					<a:KeyValueOfintstring>
+						<a:Key>1</a:Key>
+						<a:Value>value1</a:Value>
+					</a:KeyValueOfintstring>
+					<a:KeyValueOfintstring>
+						<a:Key>2</a:Key>
+						<a:Value>value2</a:Value>
+					</a:KeyValueOfintstring>
+				</Dictionary>
+				<IntValue>9</IntValue>
+				<StringArray>
+					<a:string>val1-1</a:string>
+					<a:string>val1-2</a:string>
+				</StringArray>
+				<StringList>
+					<a:string>val1</a:string>
+					<a:string>val2</a:string>
+				</StringList>
+				<StringValue>hoge7</StringValue>
+			</a:Value>
+		</a:KeyValueOfintSubClasspHn4fXTH>
+	</SubClassesDictionary>
+	<SubClassesList>
+		<SubClass>
+			<Dictionary xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<a:KeyValueOfintstring>
+					<a:Key>1</a:Key>
+					<a:Value>value1</a:Value>
+				</a:KeyValueOfintstring>
+				<a:KeyValueOfintstring>
+					<a:Key>2</a:Key>
+					<a:Value>value2</a:Value>
+				</a:KeyValueOfintstring>
+			</Dictionary>
+			<IntValue>6</IntValue>
+			<StringArray xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<a:string>val1-1</a:string>
+				<a:string>val1-2</a:string>
+			</StringArray>
+			<StringList xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<a:string>val1</a:string>
+				<a:string>val2</a:string>
+			</StringList>
+			<StringValue>hoge4</StringValue>
+		</SubClass>
+		<SubClass>
+			<Dictionary xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<a:KeyValueOfintstring>
+					<a:Key>1</a:Key>
+					<a:Value>value1</a:Value>
+				</a:KeyValueOfintstring>
+				<a:KeyValueOfintstring>
+					<a:Key>2</a:Key>
+					<a:Value>value2</a:Value>
+				</a:KeyValueOfintstring>
+			</Dictionary>
+			<IntValue>7</IntValue>
+			<StringArray xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<a:string>val1-1</a:string>
+				<a:string>val1-2</a:string>
+			</StringArray>
+			<StringList xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<a:string>val1</a:string>
+				<a:string>val2</a:string>
+			</StringList>
+			<StringValue>hoge5</StringValue>
+		</SubClass>
+	</SubClassesList>
+</RootClass>
